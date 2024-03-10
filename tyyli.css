@@ -53,6 +53,7 @@ body {
 @media only screen and (max-width: 480px) {
     .etusivukuva {
         max-width: 80%;
+        height: auto;
         margin: 0;
     }
     .topnav {
@@ -63,7 +64,7 @@ body {
         display: none;
     }
     .content {
-        width: 480px;
+        width: 320px;
     }
 }
 
