@@ -23,7 +23,7 @@ body {
     float: left;
     color: #e7e6e9;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 15px;
     text-decoration: underline;
     font-size: 22px;
 }
@@ -49,9 +49,10 @@ body {
     font-size: 18px;
 }
 
-.etusivukuva {
-    max-width: fit-content;
-    height: auto;
+@media only screen and (max-width: 600px) {
+    .etusivukuva {
+        max-width: 80%;
+    }
 }
 
 .footer {
