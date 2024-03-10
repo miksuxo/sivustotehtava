@@ -6,7 +6,6 @@ body {
 }
 
 .topnav {
-    outline-color: #7756e3;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -49,7 +48,40 @@ body {
     font-size: 18px;
 }
 
-/* OnePlus 6 display */
+.kiinnostuitko a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: #d0bcff;
+    color: #121212;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+    width: fit-content;
+}
+.kiinnostuitko a:hover {
+    text-decoration: underline;
+}
+.kysy a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: #d0bcff;
+    color: #121212;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+    width: fit-content;
+}
+.kysy a:hover {
+    text-decoration: underline;
+}
+
+/* Mobiiliskaalaus */
 @media only screen and (max-width: 480px) {
     .etusivukuva {
         max-width: 80%;
@@ -58,7 +90,6 @@ body {
     }
     .topnav {
         flex-direction: column;
-        padding: 1px;
     }
     .maintitle {
         display: none;
