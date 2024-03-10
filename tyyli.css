@@ -49,9 +49,13 @@ body {
     font-size: 18px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .etusivukuva {
-        max-width: 50%;
+        max-width: 80%;
+    }
+    .topnav {
+        flex-direction: column;
+        padding: 10px;
     }
 }
 
