@@ -34,7 +34,7 @@ body {
 }
 
 .topnav a.maintitle {
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -47,6 +47,11 @@ body {
     width: 500px;
     word-wrap: break-word;
     font-size: 18px;
+}
+
+.etusivukuva {
+    max-width: 100%;
+    height: auto;
 }
 
 .footer {
