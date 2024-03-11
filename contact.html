@@ -8,6 +8,13 @@
 	
 	<!--Linkataan tyyli.css-->
 	<link rel="stylesheet" href="tyyli.css">
+
+	<!--js funktio painikkeelle-->
+	<script>
+        function naytaViesti() {
+            document.getElementById("print").innerText = "Lähetetty!";
+        }
+    </script>
 </head>
 
 <body>
@@ -20,12 +27,29 @@
 
 	<div class="viiva"></div>
 
-	</div>
 	<div class="content">
 		<h2>Yhteydenotto</h2>
-	</div>		
-<br>
-</br>
+	</div>
+
+	<!--sähköposti input-->
+	<div class="emailinput">
+		<label for="email">Sähköpostisi:</label>
+    	<input type="email" id="email" name="email">
+	</div>
+		<br>
+		<br>
+	<!--viesti input-->
+	<div class="viesti-input">
+		<label for="viesti">Viestisi:</label>
+    	<textarea type="text" id="viesti" name="viesti"></textarea>
+	</div>
+		<br>
+	<div class="laheta">
+		<button onclick="naytaViesti()">Lähetä</button>
+    	<p id="print"></p>
+	</div>
+		<br>
+		<br>
 	<footer>
 		<div class="footer">
 			© Mikael Ylikoski

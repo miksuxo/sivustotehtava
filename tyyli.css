@@ -88,6 +88,11 @@ body {
         height: auto;
         margin: 0;
     }
+    .infokuva1 {
+        max-width: 80%;
+        height: auto;
+        margin: 0;
+    }
     .topnav {
         flex-direction: column;
     }
@@ -97,6 +102,29 @@ body {
     .content {
         width: 320px;
     }
+}
+
+.emailinput {
+    text-align: center;
+}
+.viesti-input {
+    text-align: center;
+}
+    textarea[type="text"] {
+        width: 400px;
+        height: 200px;
+        font-size: 16px;
+}
+        label {
+            display: block;
+            margin-bottom: 5px;
+}
+.laheta {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
 }
 
 .footer {
